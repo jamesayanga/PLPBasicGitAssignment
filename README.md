@@ -36,4 +36,41 @@ Initialized empty Git repository in E:/PLPBasicGitAssignment/.git/
 
 $ ls
 
+$ git remote add origin 'https://github.com/jamesayanga/PLPBasicGitAssignment'
+
+$ git add Hello.txt
+
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Hello.txt
+
+
+Ayanga@DESKTOP-AQQRP02 MINGW64 /e/PLPBasicGitAssignment (master)
+$ git commit -m 'Added Hello.txt'
+[master (root-commit) 21851e4] Added Hello.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hello.txt
+
+
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/jamesayanga/PLPBasicGitAssignment/pull/new/master
+remote:
+To https://github.com/jamesayanga/PLPBasicGitAssignment
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+$
+
+
 
