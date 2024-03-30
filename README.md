@@ -48,9 +48,7 @@ No commits yet
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   Hello.txt
-
-
-Ayanga@DESKTOP-AQQRP02 MINGW64 /e/PLPBasicGitAssignment (master)
+        
 $ git commit -m 'Added Hello.txt'
 [master (root-commit) 21851e4] Added Hello.txt
  1 file changed, 0 insertions(+), 0 deletions(-)
